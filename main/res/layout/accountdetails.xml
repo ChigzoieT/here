@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountdetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/appdefault"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Create Your Account"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:id="@+id/create"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_gravity="center"
+        android:id="@+id/name1"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/removebottomborder"
+            android:id="@+id/e1"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:hint="@string/please_enter_your_password"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Mobile Number"
+        android:id="@+id/mobilenumber"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:background="@drawable/removebottomborder"
+            android:id="@+id/e2"
+            android:layout_marginStart="25dp"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:hint="@string/please_enter_your_password"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Username"
+        android:id="@+id/user"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:background="@drawable/removebottomborder"
+            android:id="@+id/e3"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:layout_marginStart="25dp"
+            android:hint="@string/please_enter_your_password"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:id="@+id/pass"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/removebottomborder"
+            android:id="@+id/e4"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:hint="@string/please_enter_your_password"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Confirm Password"
+        android:id="@+id/conpass"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:background="@drawable/removebottomborder"
+            android:id="@+id/e5"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:layout_marginStart="25dp"
+            android:hint="@string/please_enter_your_password"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:background="@color/appdefault"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/regclick"
+        android:layout_width="150dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="By signing Up you agree with our"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Terms and conditions"
+            android:textSize="20sp"
+            android:textColor="@color/appdefault"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="@color/appdefault"
+        android:orientation="vertical"
+        android:id="@+id/topheight"
+        tools:ignore="Suspicious0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:id="@+id/ll2"
+        android:orientation="vertical"
+        tools:ignore="Suspicious0dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/welcome"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/appdefault"
+            android:id="@+id/welcome"
+            android:layout_height="wrap_content"
+            />
+
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:id="@+id/ll15"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0px"
+            android:hint="please enter your username"
+            android:background="@drawable/border"
+            android:id="@+id/ed1"
+            android:layout_gravity="center"
+            android:layout_height="0px"
+            android:inputType="text"
+            android:textStyle="italic"
+            tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+        </LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="0px"
+           android:layout_height="0px"
+           android:id="@+id/ll11"
+           android:layout_gravity="center"
+           android:background="@drawable/border"
+           android:orientation="horizontal">
+           <EditText
+               android:layout_width="0px"
+               android:background="@drawable/removebottomborder"
+               android:id="@+id/ed2"
+               android:textStyle="italic"
+               android:layout_gravity="center"
+               android:layout_height="0px"
+               android:hint="@string/please_enter_your_password"
+               android:inputType="textPassword"
+                />
+       </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="end"
+            android:id="@+id/forgetpassword"
+            android:layout_gravity="end"
+            android:text="@string/forget_password"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:layout_height="0px"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:id="@+id/loginclick"
+            android:layout_width="0px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="end"
+            android:id="@+id/registerhere"
+            android:layout_gravity="end"
+            android:text="@string/register_here"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

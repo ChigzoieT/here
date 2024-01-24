@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Here</string>
+    <string name="welcome">Welcome!</string>
+    <string name="username">Username</string>
+    <string name="please_enter_your_password">please enter your password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">forget password?</string>
+    <string name="register_here">Register here</string>
+    <string name="trusted_contact">Trusted Contact</string>
+</resources>
